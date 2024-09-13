@@ -182,7 +182,6 @@ main .projets .projet-card .card-texte h3,
 main .projets .projet-card .card-texte p {
   color: black;
   font-family: "Playwrite NZ", cursive;
-  font-size: 16px;
 }
 main .projets .projet-card .card-texte h3 {
   margin-bottom: 0px;
@@ -191,6 +190,7 @@ main .projets .projet-card .card-texte h3 {
 main .projets .projet-card .card-texte p {
   font-weight: 200;
   margin-top: 0px;
+  font-size: 14px;
 }
 main .contact {
   display: flex;
@@ -561,11 +561,11 @@ footer {
   main .projets h2 {
     margin: 0% 10% 10% 10%;
   }
-  main .projets p {
-    text-overflow: ellipsis;
-  }
   main .projets .projet-box .projet-card {
     width: 100%;
+  }
+  main .projets .projet-box .projet-card p {
+    font-size: 11px;
   }
   main .contact img {
     width: 50%;
