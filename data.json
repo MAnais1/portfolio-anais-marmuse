@@ -1,0 +1,101 @@
+{
+	"projets": [
+		{
+			"title": "Ohmyfood",
+			"picture": "images/projets/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+			"description": "Ma mission pour ce projet était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
+			"github": "https://github.com/MAnais1/Ohmyfood.git",
+			"page": "https://manais1.github.io/Ohmyfood/",
+			"skill": [
+				"Versionner son projet avec Git et Github",
+				"Mettre en œuvre des animations CSS",
+				"Intégrer une maquette en mobile-first"
+			],
+			"tags": [
+				"html",
+				"css",
+				"sass",
+				"git"
+			]
+		},
+		{
+			"title": "Print it",
+			"picture": "images/projets/slide3.jpg",
+			"description": "Ma mission pour ce projet était de dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it.",
+			"github": "https://github.com/MAnais1/Print-it.git",
+			"page": " https://manais1.github.io/Print-it/",
+			"skill": [
+				"Versionner son projet avec Git et Github",
+				"Programmer avec les fondamentaux de JavaScript"
+			],
+			"tags": [
+				"html",
+				"css",
+				"git",
+				"JS"
+			]
+		},
+		{
+			"title": "Sophie Bluel",
+			"picture": "images/projets/hotel-first-arte-new-delhi.png",
+			"description": "Pour ce projet, j'ai apporté mon aide sur le front-end à une équipe qui travaillait sur la conception du site portfolio d’une architecte d’intérieur.",
+			"github": "https://github.com/MAnais1/Sophie--Bluel.git",
+			"page": "https://manais1.github.io/Sophie--Bluel/",
+			"skill": [
+				"Versionner son projet avec Git et Github",
+				"Gérer les événements utilisateurs avec JavaScript",
+				"Manipuler les éléments du DOM avec JavaScript",
+				"Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+			],
+			"tags": [
+				"html",
+				"css",
+				"sass",
+				"git",
+				"JS",
+				"Api"
+			]
+		},
+		{
+			"title": "Kasa",
+			"picture": "images/projets/img-banner-a-propos (1).jpg",
+			"description": "Kasa voulait effectuer une refonte totale du site, pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Pour ce projet, j'ai travaillé sur la partie front-end.",
+			"github": "https://github.com/MAnais1/Kasa.git",
+			"page": "Non disponible",
+			"skill": [
+				"Versionner son projet avec Git et Github",
+				"Initialiser une application avec Create React App",
+				"Configurer la navigation entre les pages de l'application avec React Router",
+				"Développer des éléments de l'interface d'un site web grâce à des composants React",
+				"Mettre en œuvre des animations CSS",
+				"Développer une interface web avec Sass"
+			],
+			"tags": [
+				"html",
+				"css",
+				"sass",
+				"git",
+				"JS",
+				"React",
+				"Api"
+			]
+		},
+		{
+			"title": "Nina Carducci",
+			"picture": "images/projets/hannah-busing-RvF2R_qMpRk-unsplash.webp",
+			"description": "Pour ce projet, j'ai travaillé sur l’optimisation SEO du site de Nina Carducci, une photographe.",
+			"github": "https://github.com/MAnais1/Nina-Carducci.git",
+			"page": "https://manais1.github.io/Nina-Carducci/",
+			"skill": [
+				"Versionner son projet avec Git et Github",
+				"Optimiser la performance d'un site web"
+			],
+			"tags": [
+				"html",
+				" css",
+				" git",
+				" JS"
+			]
+		}
+	]
+}
