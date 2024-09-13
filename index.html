@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio - Anaïs Marmuse</title>
+    <link rel="icon" type="image/png" href="images/logo-noir.png" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+
+    <script src="/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/77f898ea3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                <img class="logo-img" src="images/logo-blanc.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <a href="#accueil">
+                        <li>Accueil</li>
+                    </a>
+                    <a href="#a-propos">
+                        <li>A propos</li>
+                    </a>
+                    <a href="#projets">
+                        <li>Mes projets</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section id="accueil" class="accueil">
+            <div class="banniere">
+                <div class="accueil-texte">
+                    <h1>Bienvenue</h1>
+                    <p>Découvrez mes projets récents en conception d'interfaces modernes et réactives, réalisés avec
+                        HTML, CSS, JavaScript et frameworks front-end. Explorez des solutions web dynamiques et
+                        innovantes.</p>
+                </div>
+
+                <img src="images/laptop-2298286_1920.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="a-propos" class="presentation">
+            <img src="images/ai-generated-8807366_1280.png" alt="">
+            <div class="presentation-texte">
+                <h2>Qui suis-je ?</h2>
+                <p>Développeur web front-end passionné, je me spécialise dans la création d'interfaces utilisateur
+                    modernes et intuitives. Grâce à ma formation avec OpenClassrooms, j'ai acquis des compétences
+                    solides en HTML, CSS, JavaScript et dans les frameworks front-end. Mon objectif est de transformer
+                    des idées en expériences web dynamiques et réactives. Parcourez mon portfolio pour découvrir mes
+                    projets récents et n'hésitez pas à me contacter pour discuter de vos besoins en développement web.
+                </p>
+            </div>
+        </section>
+
+        <section id="projets" class="projets">
+            <h2>Mes projets</h2>
+            <div id="tprojet" class="projet-box">
+                <!-- Carte créé en dynamique avec JavaScript
+
+                <div href="" class="projet-card">
+                    <img src="images/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="">
+                    <div class="card-texte">
+                        <h3>Projet nina carducci</h3>
+                        <p>Competence dev</p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-form">
+                <h2>Me contacter</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="a1284df4-64df-440a-be44-3515f4aba82d">
+                    <div class="form-box">
+                        <div class="box-left box">
+                            <label for="name">Votre nom</label>
+                            <input type="text" name="name" id="name" placeholder="Votre nom">
+
+                            <label for="email">Votre e-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Votre adresse mail" required>
+                        </div>
+                        <div class="box-right box">
+                            <label for="message">Votre message</label>
+                            <textarea name="message" id="message" placeholder="Veuillez entrer votre message"
+                                required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit">Envoyer <i class="fa-regular fa-paper-plane"></i></button>
+
+                </form>
+            </div>
+            <img src="images/form.png" alt="">
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyright © 2024 Anaïs Marmuse</p>
+    </footer>
+
+
+    <!-- modal créé dynamiquement en JavaScript
+
+    <div id="modal" class="modal">
+        <div class="modal-div">
+            <i class="fa-solid fa-xmark skip"></i>
+
+            <div class="modal-head">
+                <h2>Titre du projet</h2>
+                <div class="lien">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </div>
+
+            <img src="/images/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="">
+
+
+            <div class="modal-text">
+                <p>description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis illum corrupti
+                    mollitia vitae unde sit, beatae provident eveniet nemo esse, repellat dolorum nihil illo aliquid
+                    repudiandae qui? Consequatur, aliquid cupiditate?</p>
+
+                <div class="skill-tags">
+                    
+                    <div class="div-tags">
+                        <h3>Outils:</h3>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                    </div>
+                    <div class="div-skill">
+                        <h3>Compétences:</h3>
+                        <ul>
+                            <li>1ffffffffffffffffffffhhhhhhhhhhhhhhhhhhhhhfffffffff</li>
+                            <li>2fffffffffffffffffffffffffhhhhhhhhhhhhhhhhhhhhhh</li>
+                            <li>ffffffffffffffffffffffffffffffffffffffffff3</li>
+                        </ul>
+                    </div>
+
+                   
+                </div>
+            </div>
+
+
+        </div>
+         -->
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

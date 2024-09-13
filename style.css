@@ -1,0 +1,549 @@
+/* Variables*/
+body::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(219deg, rgba(195, 42, 34, 0.0340511204) 0%, rgba(182, 77, 77, 0.0676645658) 30%, rgba(191, 122, 122, 0.5326505602) 49%, rgba(128, 132, 178, 0.3855917367) 61%, rgb(102, 124, 202) 76%, rgb(45, 107, 253) 100%); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(95, 38, 38);
+  background: linear-gradient(177deg, rgb(95, 38, 38) 0%, rgba(72, 70, 139, 0.5382528011) 47%, rgb(45, 107, 253) 100%);
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(195, 42, 34);
+  background: linear-gradient(219deg, rgba(195, 42, 34, 0.0340511204) 0%, rgba(182, 77, 77, 0.0676645658) 30%, rgba(191, 122, 122, 0.5326505602) 49%, rgba(128, 132, 178, 0.3855917367) 61%, rgb(102, 124, 202) 76%, rgb(45, 107, 253) 100%);
+  min-width: 330px;
+}
+
+h1,
+h2,
+h3,
+li,
+p,
+button,
+input,
+label,
+a {
+  font-family: "Poiret One", sans-serif;
+}
+
+header {
+  background-color: rgb(95, 38, 38);
+  position: fixed;
+  height: 60px;
+  width: 100%;
+}
+header .header-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: auto;
+  height: 100%;
+}
+header .logo {
+  height: 100%;
+  margin-left: 20px;
+}
+header .logo .logo-img {
+  height: 100%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+header nav ul {
+  display: flex;
+  gap: 50px;
+}
+header nav ul a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul a li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+main {
+  max-width: 1500px;
+  margin: auto;
+  padding-top: 60px;
+}
+main p {
+  font-weight: 600;
+}
+main .accueil,
+main .presentation,
+main .projets,
+main .contact {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+main .accueil {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+main .accueil .banniere {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .accueil .banniere .accueil-texte {
+  width: 50%;
+}
+main .accueil .banniere .accueil-texte h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(32, 81, 105);
+  margin: 20px;
+}
+main .accueil .banniere img {
+  width: 30%;
+}
+main .presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+main .presentation img {
+  width: 40%;
+}
+main .presentation .presentation-texte {
+  width: 50%;
+}
+main .projets {
+  background-color: rgba(232, 232, 232, 0.452);
+  border-radius: 40px;
+  padding: 50px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.22);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main .projets a {
+  text-decoration: none;
+}
+main .projets h2 {
+  background-color: white;
+  border: solid 3px rgba(0, 0, 0, 0.837);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.22);
+  margin: 0.1% 30% 3% 30%;
+  padding: 10px;
+  text-align: center;
+  color: rgb(95, 38, 38);
+  font-weight: 800;
+}
+main .projets .projet-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+main .projets .projet-card {
+  width: 22%;
+  height: 400px;
+  background-color: white;
+  border: black solid 1px;
+  margin: auto;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+main .projets .projet-card img {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  padding-top: 5%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .projets .projet-card .card-texte {
+  text-align: start;
+  margin-left: 5%;
+}
+main .projets .projet-card .card-texte h3,
+main .projets .projet-card .card-texte p {
+  color: black;
+  font-family: "Playwrite NZ", cursive;
+  font-size: 16px;
+}
+main .projets .projet-card .card-texte h3 {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+main .projets .projet-card .card-texte p {
+  font-weight: 200;
+  margin-top: 0px;
+}
+main .contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  margin: auto;
+  padding-top: 40px;
+}
+main .contact h2 {
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgb(117, 10, 40), 0 0 1em rgba(246, 246, 246, 0.605), 0 0 0.2em blue;
+}
+main .contact .contact-form {
+  height: 85%;
+  width: 45%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.312);
+  border-radius: 90px;
+  text-align: center;
+  box-shadow: 10px 5px 5px rgba(249, 140, 140, 0.08);
+}
+main .contact form {
+  height: 80%;
+  width: 95%;
+  margin: auto;
+}
+main .contact form button {
+  background: rgb(0, 24, 255);
+  background: radial-gradient(circle, rgb(0, 24, 255) 0%, rgba(192, 34, 195, 0.175) 100%);
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  border: 3px solid rgba(241, 241, 241, 0.423);
+  margin: 25px;
+  width: 50%;
+  height: 12%;
+  border-radius: 25px;
+  transform: scale(0.9);
+  opacity: 0.95;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.242);
+}
+main .contact form button:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+main .contact .form-box {
+  display: flex;
+  background-color: rgba(249, 249, 249, 0.091);
+  height: 85%;
+  border-radius: 90px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.08);
+}
+main .contact .form-box .box {
+  border-radius: 90px;
+  width: 44%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  background-color: rgba(232, 159, 204, 0.375);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.08);
+}
+main .contact .form-box .box-left input {
+  height: 15%;
+  border: solid 1px rgb(255, 255, 255);
+}
+main .contact .form-box .box-right textarea {
+  height: 50%;
+}
+main .contact .form-box label {
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: rgb(0, 0, 0) 1px 0 5px;
+}
+main .contact .form-box input,
+main .contact .form-box textarea {
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 10px 1px rgba(57, 19, 133, 0.322);
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 15px;
+}
+main .contact img {
+  width: 50%;
+  max-height: 100%;
+}
+
+footer {
+  background-color: rgb(3, 1, 31);
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 0, 128, 0.293);
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.modal .modal-div {
+  background-color: rgba(65, 8, 46, 0.792);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  position: relative;
+  min-width: 330px;
+  max-width: 970px;
+  cursor: default;
+}
+.modal .modal-div .modal-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 80%;
+  height: 10%;
+  margin-top: 2%;
+}
+.modal .modal-div .modal-head h2 {
+  background-color: rgb(32, 81, 105);
+  border-radius: 20px;
+  font-size: 35px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  margin: 0px;
+  padding-top: 5px;
+  width: 65%;
+  height: 100%;
+}
+.modal .modal-div .modal-head a {
+  color: white;
+  font-size: 35px;
+  margin-left: 10px;
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.modal .modal-div .modal-head i {
+  transform: scale(0.8);
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0s;
+}
+.modal .modal-div .modal-head i:hover {
+  transform: scale(1.2);
+}
+.modal .modal-div .skip {
+  font-size: 35px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+.modal .modal-div img {
+  width: 95%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+.modal .modal-div .modal-text::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+.modal .modal-div .modal-text::-webkit-scrollbar-track {
+  background: rgba(65, 8, 46, 0.792);
+  margin: 15px 0px 15px 0px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.646);
+}
+.modal .modal-div .modal-text::-webkit-scrollbar-thumb {
+  background: linear-gradient(219deg, rgba(195, 42, 34, 0.0340511204) 0%, rgba(182, 77, 77, 0.0676645658) 30%, rgba(191, 122, 122, 0.5326505602) 49%, rgba(128, 132, 178, 0.3855917367) 61%, rgb(102, 124, 202) 76%, rgb(45, 107, 253) 100%);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.744);
+}
+.modal .modal-div .modal-text {
+  background-color: rgba(65, 8, 46, 0.792);
+  height: 40%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  width: 95%;
+  overflow: auto;
+  max-height: 300px;
+}
+.modal .modal-div .modal-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.modal .modal-div .modal-text p,
+.modal .modal-div .modal-text .skill-tags {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.modal .modal-div .modal-text .skill-tags {
+  display: flex;
+  justify-content: space-between;
+}
+.modal .modal-div .modal-text .skill-tags h3 {
+  margin-top: 0px;
+}
+.modal .modal-div .modal-text .skill-tags .div-tags {
+  width: 30%;
+}
+.modal .modal-div .modal-text .skill-tags .div-skill {
+  width: 65%;
+}
+
+@media screen and (max-width: 1023px) {
+  header {
+    height: 40px;
+  }
+  main .projets .projet-box .projet-card {
+    width: 45%;
+  }
+  main .contact {
+    height: 900px;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  main .contact .contact-form {
+    height: 75%;
+    width: 100%;
+    border-radius: 15px;
+  }
+  main .contact .form-box {
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  main .contact .form-box .box {
+    border-radius: 15px;
+    width: 94%;
+  }
+  main .contact .form-box .box-left {
+    height: 45%;
+  }
+  main .contact .form-box .box-left input {
+    height: 10%;
+    margin-bottom: 15px;
+  }
+  main .contact .form-box .box-right {
+    height: 55%;
+  }
+  main .contact .form-box .box-right textarea {
+    height: 60%;
+  }
+  main .contact .form-box label {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  main .contact .form-box input,
+  main .contact .form-box textarea {
+    border-radius: 15px;
+    margin-top: 5px;
+  }
+  main .contact img {
+    width: 23%;
+  }
+  .modal .modal-div {
+    width: 80%;
+    height: 72%;
+  }
+  .modal .modal-div .modal-head {
+    flex-direction: column;
+    width: 100%;
+  }
+  .modal .modal-div .modal-head h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 75%;
+    height: 100%;
+  }
+  .modal .modal-div .modal-head a {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+  .modal .modal-div .skip {
+    font-size: 30px;
+  }
+  .modal .modal-div img {
+    height: 40%;
+    margin-top: 10px;
+  }
+  .modal .modal-div .modal-text {
+    height: 39%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  }
+  .modal .modal-div .modal-text h3 {
+    margin-left: 0px;
+  }
+  .modal .modal-div .modal-text .skill-tags {
+    flex-direction: column-reverse;
+  }
+  .modal .modal-div .modal-text .skill-tags ul {
+    padding-left: 20px;
+  }
+  .modal .modal-div .modal-text .skill-tags .div-tags {
+    width: 95%;
+  }
+  .modal .modal-div .modal-text .skill-tags .div-tags ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal .modal-div .modal-text .skill-tags .div-skill {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header nav ul {
+    gap: 10px;
+  }
+  header nav ul a li {
+    font-weight: 600;
+    font-size: 10px;
+  }
+  main .projets h2 {
+    margin: 0% 10% 10% 10%;
+  }
+  main .projets p {
+    text-overflow: ellipsis;
+  }
+  main .projets .projet-box .projet-card {
+    width: 100%;
+  }
+  main .contact img {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
