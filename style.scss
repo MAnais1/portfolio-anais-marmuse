@@ -154,6 +154,9 @@ main {
     }
     .presentation-texte {
       width: 50%;
+      h2 {
+        color: $couleur-sec;
+      }
     }
   }
 
@@ -174,7 +177,7 @@ main {
       margin: 0.1% 30% 3% 30%;
       padding: 10px;
       text-align: center;
-      color: $couleur-prim;
+      color: $couleur-sec;
       font-weight: 800;
     }
     .projet-box {
@@ -231,7 +234,8 @@ main {
     h2 {
       font-size: 30px;
       font-weight: 900;
-      text-shadow: 1px 1px 2px rgb(117, 10, 40), 0 0 1em rgba(246, 246, 246, 0.605), 0 0 0.2em blue;
+      text-shadow: 1px 1px 2px rgb(117, 10, 40),
+        0 0 1em rgba(246, 246, 246, 0.605), 0 0 0.2em blue;
     }
 
     .contact-form {
@@ -609,6 +613,29 @@ footer {
     }
   }
   main {
+    .accueil {
+      .banniere {
+        flex-direction: column;
+        text-align: center;
+        .accueil-texte {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        img {
+          width: 80%;
+        }
+      }
+    }
+    .presentation {
+      flex-direction: column;
+      img {
+        display: none;
+      }
+      .presentation-texte {
+        text-align: center;
+        width: 100%;
+      }
+    }
     .projets {
       h2 {
         margin: 0% 10% 10% 10%;
@@ -625,6 +652,17 @@ footer {
     .contact {
       img {
         width: 50%;
+      }
+    }
+  }
+  .modal {
+    .modal-div {
+      height: 87%;
+      .modal-head {
+        height: 15%;
+      }
+      img {
+        height: 36%;
       }
     }
   }
