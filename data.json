@@ -40,7 +40,7 @@
 			"picture": "images/projets/hotel-first-arte-new-delhi.png",
 			"description": "Pour ce projet, j'ai apporté mon aide sur le front-end à une équipe qui travaillait sur la conception du site portfolio d’une architecte d’intérieur.",
 			"github": "https://github.com/MAnais1/Sophie--Bluel.git",
-			"page": "https://manais1.github.io/Sophie--Bluel/",
+			"page": "error.html",
 			"skill": [
 				"Versionner son projet avec Git et Github",
 				"Gérer les événements utilisateurs avec JavaScript",
@@ -61,7 +61,7 @@
 			"picture": "images/projets/img-banner-a-propos (1).jpg",
 			"description": "Kasa voulait effectuer une refonte totale du site, pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Pour ce projet, j'ai travaillé sur la partie front-end.",
 			"github": "https://github.com/MAnais1/Kasa.git",
-			"page": "Non disponible",
+			"page": "error.html",
 			"skill": [
 				"Versionner son projet avec Git et Github",
 				"Initialiser une application avec Create React App",

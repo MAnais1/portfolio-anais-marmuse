@@ -62,6 +62,7 @@ async function Projets() {
     /*crea éléments divLien*/
     const lienGit = document.createElement("a");
     lienGit.href = element.github;
+    lienGit.target = "_blank";
     const iconGit = document.createElement("i");
     iconGit.classList.add("fa-brands", "fa-github");
     divLien.appendChild(lienGit);
@@ -69,6 +70,7 @@ async function Projets() {
 
     const lienPage = document.createElement("a");
     lienPage.href = element.page;
+    lienPage.target = "_blank";
     const iconPage = document.createElement("i");
     iconPage.classList.add("fa-solid", "fa-globe");
     divLien.appendChild(lienPage);

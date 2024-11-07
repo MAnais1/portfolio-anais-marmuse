@@ -27,11 +27,10 @@ body::-webkit-scrollbar-thumb {
     rgba(45, 107, 253, 1) 100%
   );
   border-radius: 20px; /* roundness of the scroll thumb */
+  
 }
-body {
-  margin: 0px;
-  padding: 0px;
-  background: rgb(195, 42, 34);
+#home{
+   background: rgb(195, 42, 34);
   background: linear-gradient(
     219deg,
     rgba(195, 42, 34, 0.03405112044817926) 0%,
@@ -41,6 +40,11 @@ body {
     rgba(102, 124, 202, 1) 76%,
     rgba(45, 107, 253, 1) 100%
   );
+}
+body {
+  margin: 0px;
+  padding: 0px;
+ 
   min-width: 330px;
 }
 h1,
@@ -361,7 +365,7 @@ footer {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.22);
     border-radius: 25px;
     width: 60%;
-    height: 60%;
+    height: 80%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -419,7 +423,7 @@ footer {
     }
     img {
       width: 95%;
-      height: 50%;
+      height: 30%;
       object-fit: cover;
       border-radius: 25px;
       margin-top: 30px;
@@ -546,7 +550,7 @@ footer {
   .modal {
     .modal-div {
       width: 80%;
-      height: 72%;
+      height: 80%;
       .modal-head {
         flex-direction: column;
         width: 100%;
@@ -667,4 +671,40 @@ footer {
       }
     }
   }
+}
+
+#erreur{ 
+  background-color: rgba(204, 204, 231, 0.568);
+  
+}
+.erreur{
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  height: 100%;
+  div{
+    margin-bottom: 10%;
+  }
+  h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(102, 99, 99);
+     margin-top: 10%;
+  }
+  h2{
+    font-size: 40px;
+    margin-bottom: 10%;
+  }
+  p{
+    font-size: 25px; margin-bottom: 10%;
+    a{color: black;}
+  }
+}
+.footer-erreur{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
