@@ -29,6 +29,7 @@ async function Projets() {
     divText.appendChild(texte);
     tprojet.appendChild(divCard);
     img.src = element.picture;
+    img.alt = element.title;
     h3.textContent = element.title;
     texte.textContent = element.tags;
 
