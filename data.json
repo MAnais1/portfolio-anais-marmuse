@@ -2,7 +2,7 @@
 	"projets": [
 		{
 			"title": "Ohmyfood",
-			"picture": "images/projets/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+			"picture": "images/projets/jay-wennington-N_Y88TWmGwA-unsplash.webp",
 			"description": "Ma mission pour ce projet était de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
 			"github": "https://github.com/MAnais1/Ohmyfood.git",
 			"page": "https://manais1.github.io/Ohmyfood/",
@@ -20,7 +20,7 @@
 		},
 		{
 			"title": "Print it",
-			"picture": "images/projets/slide3.jpg",
+			"picture": "images/projets/slide3.webp",
 			"description": "Ma mission pour ce projet était de dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it.",
 			"github": "https://github.com/MAnais1/Print-it.git",
 			"page": " https://manais1.github.io/Print-it/",
@@ -37,7 +37,7 @@
 		},
 		{
 			"title": "Sophie Bluel",
-			"picture": "images/projets/hotel-first-arte-new-delhi.png",
+			"picture": "images/projets/hotel-first-arte-new-delhi.webp",
 			"description": "Pour ce projet, j'ai apporté mon aide sur le front-end à une équipe qui travaillait sur la conception du site portfolio d’une architecte d’intérieur.",
 			"github": "https://github.com/MAnais1/Sophie--Bluel.git",
 			"page": "error.html",
@@ -58,7 +58,7 @@
 		},
 		{
 			"title": "Kasa",
-			"picture": "images/projets/img-banner-a-propos (1).jpg",
+			"picture": "images/projets/img-banner-a-propos.webp",
 			"description": "Kasa voulait effectuer une refonte totale du site, pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Pour ce projet, j'ai travaillé sur la partie front-end.",
 			"github": "https://github.com/MAnais1/Kasa.git",
 			"page": "error.html",
